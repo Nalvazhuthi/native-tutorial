@@ -1,11 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import ThemedView from '../components/themedView'
+import ThemedText from '../components/themedText'
 
 const Works = () => {
     return (
-        <View style={styles.container}>
-            <Text style={styles.title}>Works</Text>
-        </View>
+        <ThemedView style={styles.container}>
+            <ThemedText style={styles.title}>Works</ThemedText>
+        </ThemedView>
     )
 }
 
